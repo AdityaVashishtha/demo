@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Game Page</title>
+    <style>
+        body {                        
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0;
+            margin: auto;
+        }
+        .nav-bar {
+            box-sizing: border-box;
+            background: #0ac;
+            color: #fff;
+            height: 84px;
+            width: 100%;
+            padding: 20px;
+            font-size: 1.75rem;
+        }
+        .game-display-section {      
+            padding: 20px;                  
+        }
+        .game-display-section > .game-item {            
+            width: 200px;
+            height: 240px;
+            box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            margin: 10px;
+            float: left;
+        }   
+        .game-display-section > .game-item > img {            
+            width: 200px;
+            height: 200px;            
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }      
+        .game-display-section > .game-item > a {            
+            display: block;
+            font-size: 1.25rem;
+            text-align: center;
+            color: #555555;            
+        }          
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            box-sizing: border-box;
+            background: #555555;
+            color: #FFF;
+            text-align: center;            
+            padding: 10px;
+            padding-top: 20px;
+        }        
+        .footer > .link-section > a , a {
+            color: #FFF;            
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        Play Our collection of free Games
+    </div>
+    <div class="game-display-section">
+        <div class="game-item">
+            <img src="./images/game-thumbnail.png" alt="Game Thumbnail Tower Plateformer">
+            <a href="towerPlateformer.html" class="game-name">
+                Tower Plateformer
+            </a>
+        </div>
+
+        <div class="game-item">
+            <img src="./images/game-thumbnail.png" alt="Game Thumbnail Tower Plateformer">
+            <a href="towerPlateformer.html" class="game-name">
+                Tower Plateformer
+            </a>
+        </div>
+
+        <div class="game-item">
+            <img src="./images/game-thumbnail.png" alt="Game Thumbnail Tower Plateformer">
+            <a href="towerPlateformer.html" class="game-name">
+                Tower Plateformer
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="link-section">
+            <a href="#">Contact Us</a> /
+            <a href="#">Terms and Conditions</a> /
+            <a href="#">About Us</a>
+        </div>
+    </div>
+</body>
+</html>
